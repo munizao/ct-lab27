@@ -1,5 +1,5 @@
 import React from 'react';
-import Madlib from './madlib/Madlib';
+import Madlib from './madlib/containers/Madlib';
 import Header from './Header';
 import Footer from './Footer';
 
