@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form component renders Form 1`] = `
+<div>
+  <div
+    className="InputBox"
+  >
+    <Input
+      index={0}
+      key="0"
+      onChange={[Function]}
+      placeholder="adjective"
+      value=""
+    />
+    <Input
+      index={1}
+      key="1"
+      onChange={[Function]}
+      placeholder="noun"
+      value=""
+    />
+    <Input
+      index={2}
+      key="2"
+      onChange={[Function]}
+      placeholder="verb, past tense"
+      value=""
+    />
+    <Input
+      index={3}
+      key="3"
+      onChange={[Function]}
+      placeholder="adverb"
+      value=""
+    />
+    <Input
+      index={4}
+      key="4"
+      onChange={[Function]}
+      placeholder="adjective"
+      value=""
+    />
+    <Input
+      index={5}
+      key="5"
+      onChange={[Function]}
+      placeholder="noun"
+      value=""
+    />
+    <Input
+      index={6}
+      key="6"
+      onChange={[Function]}
+      placeholder="noun"
+      value=""
+    />
+    <Input
+      index={7}
+      key="7"
+      onChange={[Function]}
+      placeholder="adjective"
+      value=""
+    />
+    <Input
+      index={8}
+      key="8"
+      onChange={[Function]}
+      placeholder="verb"
+      value=""
+    />
+    <Input
+      index={9}
+      key="9"
+      onChange={[Function]}
+      placeholder="adverb"
+      value=""
+    />
+    <Input
+      index={10}
+      key="10"
+      onChange={[Function]}
+      placeholder="verb, past tense"
+      value=""
+    />
+    <Input
+      index={11}
+      key="11"
+      onChange={[Function]}
+      placeholder="adjective"
+      value=""
+    />
+  </div>
+  <div
+    className="ButtonBox"
+  >
+    <button
+      className="Button"
+      onClick={[Function]}
+    >
+      Create Madlib
+    </button>
+    <button
+      className="Button"
+      onClick={[Function]}
+    >
+      Clear Form
+    </button>
+  </div>
+</div>
+`;

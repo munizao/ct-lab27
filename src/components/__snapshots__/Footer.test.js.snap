@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component renders Footer 1`] = `
+<footer>
+  <div>
+    ©2020 Puzzle Zapper. We own the libs.
+  </div>
+</footer>
+`;
