@@ -21,9 +21,7 @@ export default class Madlib extends Component{
     });
   };
 
-  handleSubmit = event => {
-    event.preventDefault();
-
+  handleSubmit = () => {
     this.toggleResult();
   }
 
