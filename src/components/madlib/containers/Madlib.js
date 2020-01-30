@@ -5,7 +5,7 @@ import Result from '../Result';
 export default class Madlib extends Component{
   state = {
     showResult: false,
-    words: new Array(12).fill("")
+    words: new Array(12).fill('')
   }
 
   toggleResult = () =>
