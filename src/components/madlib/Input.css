@@ -1,6 +1,7 @@
 .Input {
   color: #ffffff;
   background-color: #6b1a1a;
+  margin: 5px;
 }
 
 ::placeholder {
