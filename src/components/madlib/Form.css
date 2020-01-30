@@ -1,0 +1,16 @@
+.InputBox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 30px 20vw 30px 20vw;
+}
+
+.ButtonBox {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.Button {
+  margin: 5px
+}

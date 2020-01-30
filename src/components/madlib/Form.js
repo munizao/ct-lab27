@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Input from './Input';
+import styles from './Form.css';
+
 
 const partsOfSpeech = ['adjective', 'noun', 'verb, past tense',
   'adverb', 'adjective', 'noun', 'noun',
@@ -8,11 +10,13 @@ const partsOfSpeech = ['adjective', 'noun', 'verb, past tense',
 
 const Form = ({ onSubmit, onChange, onClear, words }) => (
   <div>
-    <form onSubmit={onSubmit}>
+    <div className={styles.InputBox}>
       {partsOfSpeech.map((pos, i) => <Input value={words[i]} key={i} placeholder={pos} onChange={onChange} index={i} />)}
-      <button>Create Madlib</button>
-    </form>
-    <button onClick={onClear}>Clear Form</button>
+    </div>
+    <div className={styles.ButtonBox}>
+      <button className={styles.Button} onClick={onSubmit}>Create Madlib</button>
+      <button className={styles.Button} onClick={onClear}>Clear Form</button>
+    </div>
   </div>
 );
 
