@@ -1,6 +1,12 @@
 .Result {
+  display: flex;
+  flex-direction: column;
   margin: 30px 20vw 30px 20vw; 
   p {
     color: #ffffff;
+  }
+  button {
+    align-self: center;
+    text-align: center;
   }
 }
