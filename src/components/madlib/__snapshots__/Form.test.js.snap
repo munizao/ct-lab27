@@ -2,8 +2,8 @@
 
 exports[`Form component renders Form 1`] = `
 <div>
-  <form
-    onSubmit={[Function]}
+  <div
+    className="InputBox"
   >
     <Input
       index={0}
@@ -89,14 +89,22 @@ exports[`Form component renders Form 1`] = `
       placeholder="adjective"
       value=""
     />
-    <button>
+  </div>
+  <div
+    className="ButtonBox"
+  >
+    <button
+      className="Button"
+      onClick={[Function]}
+    >
       Create Madlib
     </button>
-  </form>
-  <button
-    onClick={[Function]}
-  >
-    Clear Form
-  </button>
+    <button
+      className="Button"
+      onClick={[Function]}
+    >
+      Clear Form
+    </button>
+  </div>
 </div>
 `;
