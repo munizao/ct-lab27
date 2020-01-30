@@ -3,7 +3,7 @@
 exports[`Footer component renders Footer 1`] = `
 <footer>
   <div>
-    ©2020. We own the libs.
+    ©2020 Puzzle Zapper. We own the libs.
   </div>
 </footer>
 `;
