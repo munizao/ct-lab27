@@ -1,0 +1,9 @@
+.Input {
+  color: #ffffff;
+  background-color: #6b1a1a;
+}
+
+::placeholder {
+  color: rgb(230, 78, 78);
+  opacity: 1; 
+}
